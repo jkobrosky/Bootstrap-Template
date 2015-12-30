@@ -1,0 +1,34 @@
+{
+  "name": "bootstrap-based-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkobrosky/Bootstrap-Template.git"
+  },
+  "author": "JKobrosky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkobrosky/Bootstrap-Template/issues"
+  },
+  "homepage": "https://github.com/jkobrosky/Bootstrap-Template#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "mongojs": "^2.2.2",
+    "node": "0.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.1.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1",
+    "less": "^2.5.3"
+  }
+}
